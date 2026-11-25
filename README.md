@@ -1,14 +1,28 @@
-# Synapse-releases
-Synapse macOS 多 AI 协作台：安装包、版本说明与问题反馈。仅分发二进制，源码不公开。官网 https://test.mibhr.cn/synapse/
-Synapse 是 macOS 多 AI 协作台，目前支持 Codex、DeepSeek 和 Antigravity。
+# Synapse · macOS 多 AI 协作台
 
-- 项目与会话管理、聊天分支、共享上下文与模型选择。
-- 修复审批回传与等待超时，新增更新提醒、安装包校验与授权状态提示。
+把 Codex、DeepSeek 和 Antigravity 放进同一个项目窗口。你可以让一个 AI 持续推进主任务，再把需要复核的部分交给另一个 AI 讨论。项目目录、主对话和辅助讨论都有各自的位置，回来时可以接着上次的进度工作。
 
-下载下方 Synapse-v1.1.6-build12.zip，解压后将 Synapse.app 放入 Applications。适用于 Apple Silicon Mac，macOS 13 或更新版本。当前安装包未完成 Apple 公证，首次打开可能出现开发者验证提示。
+**[下载最新版](https://github.com/Houshenglab/Synapse-releases/releases/latest)　·　[产品官网](https://test.mibhr.cn/synapse/)　·　[反馈问题](https://github.com/Houshenglab/Synapse-releases/issues)**
 
-各 AI 需要使用者自行安装并登录。
+## 可以用它做什么
 
-官网：https://test.mibhr.cn/synapse/
+| 你想做的事 | 在 Synapse 里怎么用 |
+| --- | --- |
+| 让另一个 AI 帮忙复核 | 在主力工作台继续原对话，打开辅助讨论，让另一位成员参考主聊上下文。适合一边写方案，一边核对假设。 |
+| 让多位成员讨论同一份材料 | 在项目群聊中用 @ 点名成员，把问题和文件放在同一处，方便对照不同成员的回答。 |
+| 保留不同尝试 | 按项目管理会话，从已有回复创建分支，单独尝试另一种解法，方便回到原来的讨论。 |
+| 重复使用自己的工作方法 | 把本机的 SKILL.md 加入技能库，发送消息时选中所需说明，让不同成员按同一套要求工作。 |
+| 找回长任务的结果 | 从任务记录回到对应会话。长对话按页读取并在本机缓存，临时读取超时时保留已经显示的内容。 |
+| 安排接下来用哪个模型 | 在额度面板查看成员能够提供的剩余额度与重置时间。有足够的历史数据时，还能参考消耗趋势估算。 |
 
-本仓库仅提供安装包和说明，不包含应用源码。GitHub 自动生成的 Source code 压缩包仅含本仓库说明文件。
+## 第一次使用
+
+1. 准备一台 **Apple 芯片 Mac，macOS 13 或更高版本**。从 Releases 下载文件名以 `Synapse-v` 开头的 ZIP，解压后将 `Synapse.app` 拖入「应用程序」。当前发行包未经过 Apple 公证，首次打开时 macOS 可能提示验证开发者。
+2. 打开 Synapse，按应用内提示登录并完成授权。各 AI 成员使用各自的账号、客户端和服务额度。先连接一个你已经在使用的成员即可开始。
+3. 选择项目目录，新建会话，发送第一个任务。例如，让主力成员整理一份需求，然后请辅助成员检查遗漏的边界条件。
+
+## 版本与反馈
+
+每个 Release 都附有版本说明。下载应用请选择发布附件里的安装包；GitHub 自动生成的 Source code 压缩包只包含发行仓库的说明文件。
+
+反馈时请附上 Synapse 版本、macOS 版本、所用 AI 成员和触发问题的步骤。截图前请遮住账号信息、密钥和私人对话。
