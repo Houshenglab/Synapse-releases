@@ -4,6 +4,20 @@
 
 **[下载最新版](https://github.com/Houshenglab/Synapse-releases/releases/latest)　·　[产品官网](https://test.mibhr.cn/synapse/)　·　[反馈问题](https://github.com/Houshenglab/Synapse-releases/issues)**
 
+[![Synapse 主力工作台，右侧为 Codex 新会话的真实界面](assets/readme/synapse-workbench.png)](assets/readme/workbench.png)
+
+点封面可查看工作台原图。图中使用本地演示项目，目录已遮盖。不同版本的工具栏会略有差异。
+
+## 从主任务到辅助讨论
+
+![从主力选择器到辅助讨论的实际控件，显示「看主聊」开关和可选成员](assets/readme/main-and-discussion.png)
+
+例如，用 Codex 起草活动方案后，可以打开「辅助讨论」，让 DeepSeek 参考主聊，检查方案是否写清了时间、地点和报名方式。
+
+![AI 剩余额度面板实拍，显示 Codex 的七天额度剩余比例与重置时间](assets/readme/member-quota.png)
+
+额度面板显示成员服务提供的数据。图中的百分比和时间是录制时的示例。
+
 ## 可以用它做什么
 
 | 你想做的事 | 在 Synapse 里怎么用 |
