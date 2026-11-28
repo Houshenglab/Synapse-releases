@@ -76,3 +76,5 @@
 ## 支持作者
 
 由 **Houshenglab** 开发。喜欢这个工具，欢迎点个 Star；如果它帮你节省了时间，也欢迎自愿请作者喝杯咖啡。打赏完全自愿，不影响任何功能。
+
+[微信扫码赞赏 · 请 Houshenglab 喝杯咖啡](https://github.com/Houshenglab/Synapse-releases/releases/download/v1.1.138-build146/Houshenglab-WeChat-tip.png)
