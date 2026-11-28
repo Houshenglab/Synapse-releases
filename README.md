@@ -2,7 +2,11 @@
 
 把 Codex、DeepSeek 和 Antigravity 放进同一个项目窗口。你可以让一个 AI 持续推进主任务，再把需要复核的部分交给另一个 AI 讨论。项目目录、主对话和辅助讨论都有各自的位置，回来时可以接着上次的进度工作。
 
-**[下载最新版](https://github.com/Houshenglab/Synapse-releases/releases/latest)　·　[产品官网](https://test.mibhr.cn/synapse/)　·　[反馈问题](https://github.com/Houshenglab/Synapse-releases/issues)**
+**[下载 DMG（推荐）](https://github.com/Houshenglab/Synapse-releases/releases/download/v1.1.138-build146/Synapse-v1.1.138-build146.dmg)　·　[下载源码](https://github.com/Houshenglab/Synapse-releases/releases/download/v1.1.138-build146/Synapse-source.zip)　·　[全部版本](https://github.com/Houshenglab/Synapse-releases/releases/latest)　·　[产品官网](https://test.mibhr.cn/synapse/)　·　[反馈问题](https://github.com/Houshenglab/Synapse-releases/issues)**
+
+**Houshenglab · 免费开源 · MIT**
+
+公开版无需 Synapse 账号、激活码或订阅，不含手机端、视频生成及云电脑功能。各 AI 服务商的账号与额度独立计算。
 
 [![Synapse 主力工作台，右侧为 Codex 新会话的真实界面](assets/readme/synapse-workbench.png)](assets/readme/workbench.png)
 
@@ -59,12 +63,16 @@
 
 ## 第一次使用
 
-1. 准备一台 **Apple 芯片 Mac，macOS 13 或更高版本**。从 Releases 下载文件名以 `Synapse-v` 开头的 ZIP，解压后将 `Synapse.app` 拖入「应用程序」。当前发行包未经过 Apple 公证，首次打开时 macOS 可能提示验证开发者。
-2. 打开 Synapse，按应用内提示登录并完成授权。各 AI 成员使用各自的账号、客户端和服务额度。先连接一个你已经在使用的成员即可开始。
+1. 准备一台 **Apple 芯片 Mac，macOS 13 或更高版本**。下载 DMG 安装镜像，双击打开后将 `Synapse.app` 拖入「应用程序」。也可使用发行页的 ZIP 版本。当前发行包未经过 Apple 公证，首次打开时 macOS 可能提示验证开发者。
+2. 打开 Synapse，无需 Synapse 登录与授权。各 AI 成员使用各自的账号、客户端和服务额度。先连接一个你已经在使用的成员即可开始。
 3. 选择项目目录，新建会话，发送第一个任务。例如，让主力成员整理一份需求，然后请辅助成员检查遗漏的边界条件。
 
 ## 版本与反馈
 
-每个 Release 都附有版本说明。下载应用请选择发布附件里的安装包；GitHub 自动生成的 Source code 压缩包只包含发行仓库的说明文件。
+每个 Release 都附有版本说明。下载应用请选择发布附件里的安装包；公开版可构建源码位于 `Synapse-source.zip` 附件；GitHub 自动生成的 Source code 压缩包只包含发行仓库的文件。
 
 反馈时请附上 Synapse 版本、macOS 版本、所用 AI 成员和触发问题的步骤。截图前请遮住账号信息、密钥和私人对话。
+
+## 支持作者
+
+由 **Houshenglab** 开发。喜欢这个工具，欢迎点个 Star；如果它帮你节省了时间，也欢迎自愿请作者喝杯咖啡。打赏完全自愿，不影响任何功能。
